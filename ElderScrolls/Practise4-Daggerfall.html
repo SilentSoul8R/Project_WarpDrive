@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Practise</title>
+<meta charset="utf-8">
+<meta name="author" content="SilentSoul8R">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<style>
+:root{
+    --void:#15111F; --void-deep:#0C0A13; --purple:#5B4A82; --purple-bright:#8873BE;
+    --silver:#B8AFC2; --moon:#E8E2F2; --ink:#DCD5EA;
+}
+*{ box-sizing:border-box; }
+body{
+    margin:0; background: radial-gradient(ellipse at top, var(--void) 0%, var(--void-deep) 70%);
+    color:var(--ink); font-family:"EB Garamond", serif; font-size:19px; line-height:1.75;
+}
+.wrap{ max-width:700px; margin:0 auto; padding:64px 22px 90px; }
+header{ text-align:center; margin-bottom:10px; }
+.kicker{ font-family:"JetBrains Mono", monospace; font-size:11px; letter-spacing:0.28em; text-transform:uppercase; color:var(--purple-bright); margin-bottom:22px; }
+h1{ font-family:"Cinzel", serif; font-weight:700; font-size:clamp(26px,4.6vw,38px); line-height:1.25; color:var(--moon); margin:0 0 22px; text-shadow:0 0 24px rgba(136,115,190,0.35); }
+.moon-divider{ text-align:center; color:var(--purple-bright); font-size:20px; letter-spacing:0.5em; margin:0 0 26px; }
+.byline{ font-family:"JetBrains Mono", monospace; font-size:12.5px; letter-spacing:0.06em; text-transform:uppercase; color:var(--silver); display:flex; justify-content:center; gap:10px; flex-wrap:wrap; }
+.byline address{ font-style:normal; color:var(--purple-bright); }
+.byline .dot{ color:var(--purple); }
+nav.toc{ display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin:34px 0 44px; }
+nav.toc a{ font-family:"Cinzel", serif; font-size:12px; letter-spacing:0.06em; text-transform:uppercase; text-decoration:none; color:var(--ink); border:1px solid var(--purple); padding:9px 18px; transition:all .15s ease; }
+nav.toc a:hover, nav.toc a:focus-visible{ background:var(--purple); color:var(--moon); outline:none; }
+section{ background:rgba(91,74,130,0.06); border:1px solid rgba(136,115,190,0.25); padding:32px 36px; margin-bottom:26px; }
+h3{ font-family:"Cinzel", serif; font-weight:600; font-size:21px; color:var(--purple-bright); margin:0 0 16px; }
+p{ margin:0 0 16px; color:var(--silver); }
+p:last-child{ margin-bottom:0; }
+p b{ color:var(--moon); }
+.pullquote{ font-style:italic; font-size:19px; color:var(--moon); border-left:3px solid var(--purple-bright); padding-left:18px; margin-top:20px; }
+.pullquote b{ display:block; font-family:"JetBrains Mono", monospace; font-style:normal; font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--purple-bright); margin-bottom:8px; }
+.lead-in{ font-family:"JetBrains Mono", monospace; font-size:11.5px; letter-spacing:0.1em; text-transform:uppercase; color:var(--silver); margin-bottom:12px; }
+ul.moon-list{ list-style:none; margin:0; padding:0; display:grid; gap:9px; }
+ul.moon-list li{ position:relative; padding-left:24px; color:var(--ink); }
+ul.moon-list li::before{ content:"\263D"; position:absolute; left:0; color:var(--purple-bright); font-size:13px; }
+.table-wrap{ overflow-x:auto; }
+table{ width:100%; border-collapse:collapse; font-size:15.5px; border:1px solid rgba(136,115,190,0.3); }
+th{ font-family:"Cinzel", serif; font-size:11.5px; letter-spacing:0.08em; text-transform:uppercase; text-align:left; color:var(--moon); background:rgba(91,74,130,0.5); padding:12px 16px; }
+td{ padding:12px 16px; border-bottom:1px solid rgba(136,115,190,0.2); color:var(--silver); }
+tr:nth-child(even) td{ background:rgba(136,115,190,0.05); }
+td:first-child{ color:var(--moon); font-weight:500; }
+footer{ text-align:center; padding-top:14px; }
+footer p{ font-family:"JetBrains Mono", monospace; font-size:12px; letter-spacing:0.04em; color:var(--silver); }
+footer .name{ color:var(--purple-bright); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="kicker">A Tale Told Under Two Moons</div>
+<h1>The Rise of Urban Beekeeping: Why City Dwellers Are Turning to Hives</h1>
+<div class="moon-divider">&#9790; &#9789; &#9790;</div>
+<div class="byline">
+<address>Written by SilentSoul8R</address>
+<span class="dot">&middot;</span><span>6th of August, 2026</span>
+<span class="dot">&middot;</span><span>Five Minutes' Reading</span>
+</div>
+</header>
+<nav class="toc">
+<a href="#Intro">Intro</a>
+<a href="#Paragraph1">A Buzzing Hobby</a>
+<a href="#Paragraph2">The Challenges</a>
+</nav>
+<section id="Intro">
+<h3>Intro</h3>
+<p>
+Ten years ago, the idea of keeping bees on a downtown rooftop sounded like a niche hobby for the eccentric few.
+Today, urban beekeeping has become one of the fastest-growing trends in sustainable city living, with hobbyists
+and small businesses installing hives on apartment balconies, office rooftops, and community gardens across the
+world.
+</p>
+</section>
+<section id="Paragraph1">
+<h3>A Buzzing Hobby Takes Off</h3>
+<p>
+Urban beekeeping associations report a significant rise in new members over the past five years, particularly in major cities like
+New York, London, and Toronto. Enthusiasts cite a mix of motivations: a desire to support declining bee populations, an interest in
+producing their own honey, and simply the novelty of tending a hive in an unlikely setting.
+</p>
+<p>
+Local governments have taken notice too. Several cities have relaxed zoning restrictions that once banned hives within residential
+areas, provided beekeepers follow basic safety guidelines such as keeping hives a certain distance from sidewalks and ensuring a
+water source is nearby so bees don't bother neighbors' pools or fountains.
+</p>
+<div class="pullquote">
+<b>Whispered in the Guild Hall</b>
+"People are surprised to learn that city bees often do better than their rural cousins. Urban gardens and parks provide a surprisingly
+diverse diet of pollen compared to the monoculture farmland many rural bees rely on."
+</div>
+</section>
+<section id="Paragraph2">
+<h3>The Challenges of Keeping Bees Above the Street</h3>
+<p>
+It isn't all smooth flying. Rooftop hives face unique challenges, including extreme heat from tar roofing, strong winds at higher elevations,
+and the logistical hurdle of hauling equipment up several flights of stairs. Beekeepers must also navigate curious or nervous neighbors, some
+of whom mistake honeybees for more aggressive wasps.
+</p>
+<div class="lead-in">Perils of the Rooftop Keeper</div>
+<ul class="moon-list">
+<li>Limited rooftop access and elevator restrictions</li>
+<li>Temperature extremes affecting hive health</li>
+<li>Educating neighbors about bee behavior</li>
+<li>Local regulations and permit requirements</li>
+<li>Seasonal maintenance without a backyard workspace</li>
+</ul>
+</section>
+<section>
+<div class="table-wrap">
+<table>
+<tr><th>Challenge</th><th>Description</th></tr>
+<tr><td>Open-Air Exposure</td><td>Limited rooftop access and elevator restrictions</td></tr>
+<tr><td>Temperature</td><td>Temperature extremes affecting hive health</td></tr>
+<tr><td>Society Issues</td><td>Educating neighbors about bee behavior</td></tr>
+<tr><td>Maintenance</td><td>Seasonal maintenance without a backyard workspace</td></tr>
+</table>
+</div>
+</section>
+<section>
+<h3>What's Next for the Movement</h3>
+<p>
+As more cities embrace green infrastructure, some experts predict hives will become as common as rooftop solar panels. Educational programs are
+also expanding, with several nonprofits now offering beginner courses that pair new beekeepers with experienced mentors.
+</p>
+<p>
+Whether the trend continues to grow or eventually levels off, one thing is clear: urban beekeeping has already changed the way many city dwellers
+think about their relationship with nature, one rooftop hive at a time.
+</p>
+</section>
+<footer>
+<p><span class="name">SilentSoul8R</span> is a passionate learner and loves programming!</p>
+</footer>
+</div>
+</body>
+</html>
+ 
