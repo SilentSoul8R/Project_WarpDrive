@@ -3,7 +3,13 @@
 <head> <title>Form One</title>
 </head>
 <body>
+
+
 <form>
+
+<fieldset>
+<legend>Personal Information<legend>
+
 <label for="accInput">Enter Account Here:</label> <br>
 <input type="text" id="accInput" name="enterAcc"> <br>
 <label for="balInput">Enter Balance Here:</label> <br>
@@ -15,7 +21,11 @@
 <label for="selectAccType">Normal Account</label> <br>
 <input type="radio" id="selectAccType2" name="VIPAcc">
 <label for="selectAccType2">VIP Account</label> <br>
+</fieldset>
 
+<br>
+<fieldset>
+<legend>Extra</legend>
 <select id=”selectlist” name=”selectlistone”>
 <option value=”Toyota”>Toyota</option>
 <option value=”Honda”>Honda</option>
@@ -24,9 +34,13 @@
 <option value=”Hyundai”>Hyundai</option>
  </select> <br>
 
+<br>
+<br>
 
 <textarea name=”code” rows=”10” cols=”10”>My first text area element</textarea>
 
+
+</fieldset>
 </form>
 </body>
 </html>
