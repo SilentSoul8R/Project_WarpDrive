@@ -5,7 +5,7 @@
     <meta name="author" content="SilentSoul8R">
     <meta charset="utf-8">
     <title>Form1</title>
-    
+
 </head>
 <body>
     <header>
@@ -14,54 +14,121 @@
     <hr>
 
     <main>
-            <div>  
+        <div>
+            <h4>Intro:</h4>
+            <p>Skyblivion and Skywind are volunteer fan projects rebuilding Oblivion and Morrowind, respectively, inside Skyrim's engine, giving both older games a modern look and feel while keeping their original
+               stories intact, Skyblivion is closer to launch, while Skywind still has no set release window.</p>
+        </div>
+        <div>
             <h4>Release Date: </h4>
-            <p>  There's no official release date yet. As of the most recent update: the confirmed facts are PC focus, Skyrim: Special Edition engine, Morrowind foundation, and a volunteer team still building, 
-                 the official press pack lists Skywind's release date as TBA, with no confirmed launch window.
-                
-                 Progress-wise, as of the May 2026 update: 2D, 3D, visual effects, writing, and voice acting are roughly 80–99 percent complete, while sound design and voice mastering lag behind at 65 and 12 
-                 percent respectively. With 10 out of 13 regions nearing completion, the geography of Vvardenfell is largely represented in the Skyrim engine, while the remaining work on Red Mountain represents
-                 one of the most complex areas of the map.
-                 
-                 TheGamer
-                 In Game News Given it's a 14-year volunteer project (started 2012) that keeps sliding, I'd treat any "2026/2027" guess with real skepticism — Skyblivion is the more advanced sibling project and
-                 it just slipped from 2025 into 2026 for similar reasons (Imperial City assets, navmesh /quest work).
+            <p>
+                There's no official release date yet. As of the most recent update: the confirmed facts are PC focus, Skyrim: Special Edition engine, Morrowind foundation, and a volunteer team still building,
+                the official press pack lists Skywind's release date as TBA, with no confirmed launch window.
+
+                Progress-wise, as of the May 2026 update: 2D, 3D, visual effects, writing, and voice acting are roughly 80–99 percent complete, while sound design and voice mastering lag behind at 65 and 12
+                percent respectively. With 10 out of 13 regions nearing completion, the geography of Vvardenfell is largely represented in the Skyrim engine, while the remaining work on Red Mountain represents
+                one of the most complex areas of the map.
+
+                TheGamer
+                In Game News Given it's a 14-year volunteer project (started 2012) that keeps sliding, I'd treat any "2026/2027" guess with real skepticism, Skyblivion is the more advanced sibling project and
+                it just slipped from 2025 into 2026 for similar reasons (Imperial City assets, navmesh /quest work).
             </p>
-            </div>
+        </div>
 
-            <h4>Requirements: </h4>
-            <div>
-                <p>
-                  Players will need Skyrim: Special Edition and Morrowind with its expansions to play Skywind. Specifically:
-                </p>
-                <dl>
-                    <dt>The Elder Scrolls V: Skyrim:</dt>
-                    <dd>Special Edition (a legal copy, on Steam or elsewhere)</dd>
+        <h4>Requirements: </h4>
+        <div>
+            <p>
+                Players will need Skyrim: Special Edition and Morrowind with its expansions to play Skywind. Specifically:
+            </p>
+            <dl>
+                <dt>The Elder Scrolls V: Skyrim:</dt>
+                <dd>Special Edition (a legal copy, on Steam or elsewhere)</dd>
 
-                    <dt>The Elder Scrolls III: Morrowind:</dt>
-                    <dd>Game of the Year Edition (likely, per Skywind's own wiki description) which bundles Tribunal and Bloodmoon</dd>
+                <dt>The Elder Scrolls III: Morrowind:</dt>
+                <dd>Game of the Year Edition (likely, per Skywind's own wiki description) which bundles Tribunal and Bloodmoon</dd>
 
-                    <dt>Both installed and pointed at by the Skywind installer, since it repurposes Skyrim's engine/systems while pulling some source data from Morrowind</dt>
-                </dl>
+                <dt>Both installed and pointed at by the Skywind installer, since it repurposes Skyrim's engine/systems while pulling some source data from Morrowind</dt>
+            </dl>
 
-            </div>
+        </div>
 
         <hr>
-            <h3>This is the form to sign up for this project</h3>
-            <form>
-                <label for="username">Enter your Username here:</label>
-                <input type="text" id="username" name="getusername">
-                <label for="email">Enter Your Email Here: </label>
-                <input type="email" id="email" name="getemail">
-                
-                <label>Please Select Your Gender: </label>
-                <input type="radio" id="Gender" name="Gender" value="Male">
-                <label for="Male"> Male</label>
-                <input type="radio" id="Gender" name="Gender" value="Female">
-                <label for="Female"> Female</label>
-                <input type="radio" id="Gender" name="Gender" value="RatherNoSay">
-                <label for="RatherNoSay"> Otherwise</label>
-            </form>
+        <h3>This is the form to sign up for this project</h3>
+        <form action="_blank">
+            <label for="username">Enter your Username here:</label>
+            <input type="text" id="username" name="getusername">
+            <label for="email">Enter Your Email Here: </label>
+            <input type="email" id="email" name="getemail">
+            <br />
+            <br />
+            <label>Please Select Your Gender: </label>
+            <input type="radio" id="Gender" name="Gender" value="Male">
+            <label for="Male"> Male</label>
+            <input type="radio" id="Gender" name="Gender" value="Female">
+            <label for="Female"> Female</label>
+            <input type="radio" id="Gender" name="Gender" value="RatherNoSay">
+            <label for="RatherNoSay"> Otherwise</label>
+            <br />
+            <br />
+            <label for="country">Please Select Country of origin</label>
+            <input list="countries">
+            <datalist id="countries" name="countries" placeholder="Start Typing....">
+                <option value="Afghanistan">
+                <option value="Armenia">
+                <option value="Azerbaijan">
+                <option value="Bahrain">
+                <option value="Bangladesh">
+                <option value="Bhutan">
+                <option value="Brunei">
+                <option value="Cambodia">
+                <option value="China">
+                <option value="Cyprus">
+                <option value="Georgia">
+                <option value="India">
+                <option value="Indonesia">
+                <option value="Iran">
+                <option value="Iraq">
+                <option value="Israel">
+                <option value="Japan">
+                <option value="Jordan">
+                <option value="Kazakhstan">
+                <option value="Kuwait">
+                <option value="Kyrgyzstan">
+                <option value="Laos">
+                <option value="Lebanon">
+                <option value="Malaysia">
+                <option value="Maldives">
+                <option value="Mongolia">
+                <option value="Myanmar">
+                <option value="Nepal">
+                <option value="North Korea">
+                <option value="Oman">
+                <option value="Pakistan">
+                <option value="Palestine">
+                <option value="Philippines">
+                <option value="Qatar">
+                <option value="Saudi Arabia">
+                <option value="Singapore">
+                <option value="South Korea">
+                <option value="Sri Lanka">
+                <option value="Syria">
+                <option value="Taiwan">
+                <option value="Tajikistan">
+                <option value="Thailand">
+                <option value="Timor-Leste">
+                <option value="Turkey">
+                <option value="Turkmenistan">
+                <option value="United Arab Emirates">
+                <option value="Uzbekistan">
+                <option value="Vietnam">
+                <option value="Yemen">
+            </datalist>
+            
+            <p>
+                For Non-Asian Users: Visit <a href="https://skyblivion.com/">Skyblivion</a> and <a href="https://tesrskywind.com/">Skywind</a>
+            </p>
+
+        </form>
 
     </main>
 
